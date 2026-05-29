@@ -1,10 +1,11 @@
 [
   {
-    "name": "Super Mario Bros",
-    "featured": true,
-    "type": "port",
-    "image": "https://example.com/mario.png",
-    "url": "https://an-unblocked-game-provider.com/mario-game-embed", 
-    "description": "Play classic Mario right inside the browser."
+    "name": "Racing Limits",
+    "featured": false,
+    "type": "rip",
+    "image": "https://imgs.crazygames.com/racing-limits_1x1/20250711091800/racing-limits_1x1-cover?format=auto&quality=100&metadata=none&width=1200",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usRacingLimits.html",
+    "credit": "Musashi for ripping",
+    "description": "An infinite arcade racing game where you weave through heavy highway traffic. Test your reflexes across multiple game modes including career, infinite, and time-trial variations."
   }
 ]
