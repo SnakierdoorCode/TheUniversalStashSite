@@ -1,10 +1,10 @@
 [
   {
-    "name": "Minecraft 1.12.2",
-    "description": "Classic survival.",
-    "credit": "Someone",
-    "type": "rip",
-    "image": "https://yourcdn.com/mc.jpg",
-    "featured": true
+    "name": "Super Mario Bros",
+    "featured": true,
+    "type": "port",
+    "image": "https://example.com/mario.png",
+    "url": "https://an-unblocked-game-provider.com/mario-game-embed", 
+    "description": "Play classic Mario right inside the browser."
   }
 ]
