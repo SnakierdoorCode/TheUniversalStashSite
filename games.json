@@ -8,4 +8,13 @@
     "credit": "Musashi for ripping",
     "description": "An infinite arcade racing game where you weave through heavy highway traffic. Test your reflexes across multiple game modes including career, infinite, and time-trial variations."
   }
+  {
+    "name": "Drive mad",
+    "featured": true,
+    "type": "rip",
+    "image": "https://cdn2.steamgriddb.com/grid/720a3d2fe9867a586078a3f40847bd57.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/poki/Drivemad/index.html",
+    "credit": "Musashi for ripping",
+    "description" "Drive Mad is an addictive, physics-based racing and puzzle game developed by Martin Magni"
+  }
 ]
