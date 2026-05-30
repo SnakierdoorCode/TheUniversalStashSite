@@ -7,6 +7,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<!-- ANALYTICS — replace YOUR_CODE with your GoatCounter code from goatcounter.com -->
+<script data-goatcounter="https://YOUR_CODE.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -92,6 +94,7 @@ section.on{display:block}
   font-size:0.5rem;letter-spacing:0.1em;color:#08090f;text-transform:uppercase;font-weight:700;
 }
 
+/* ── card grid ── */
 #games-grid,#movies-grid{
   display:grid;grid-template-columns:repeat(auto-fill,minmax(var(--card-w),1fr));gap:12px;
 }
@@ -105,6 +108,7 @@ section.on{display:block}
 }
 .card:hover{transform:translateY(-4px);border-color:rgba(255,255,255,0.14);box-shadow:0 14px 36px rgba(0,0,0,0.5)}
 
+/* ── FIXED SQUARE THUMBNAIL — all images same size, no crop, no bleed ── */
 .card-thumb-wrap{
   width:100%;
   padding-top:100%;
@@ -144,6 +148,7 @@ section.on{display:block}
 .bp{background:rgba(76,175,130,0.1);color:var(--port);border:1px solid rgba(76,175,130,0.18)}
 .bo{background:rgba(196,154,60,0.1);color:var(--other);border:1px solid rgba(196,154,60,0.18)}
 
+/* ── modal ── */
 #mw{position:fixed;inset:0;z-index:500;background:rgba(5,6,12,0.88);backdrop-filter:blur(12px);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity 0.2s}
 #mw.on{opacity:1;pointer-events:all}
 #modal{background:var(--bg1);border:1px solid rgba(255,255,255,0.08);border-radius:14px;width:92vw;max-width:420px;overflow:hidden;transform:translateY(12px) scale(0.97);transition:transform 0.24s cubic-bezier(.2,1,.4,1);box-shadow:0 32px 70px rgba(0,0,0,0.65);position:relative}
@@ -159,6 +164,7 @@ section.on{display:block}
 #mc{position:absolute;top:10px;right:12px;background:rgba(0,0,0,0.45);border:1px solid var(--rim);border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--muted2);font-size:0.8rem;transition:color 0.15s,background 0.15s}
 #mc:hover{color:var(--w);background:rgba(255,255,255,0.1)}
 
+/* ── game drawer ── */
 #gd-drawer{
   position:fixed;bottom:0;left:0;right:0;height:100vh;
   background:var(--bg1);border-top:1px solid var(--rim);
@@ -178,6 +184,7 @@ section.on{display:block}
 .gd-frame-wrap{flex:1;background:#000;position:relative}
 .gd-frame-wrap iframe{width:100%;height:100%;border:none;display:block}
 
+/* ── settings ── */
 .pane{max-width:520px}
 .pane h2{font-family:'Bebas Neue',sans-serif;font-size:1.2rem;letter-spacing:0.1em;color:var(--w);margin-bottom:20px}
 .gbox{background:var(--bg1);border:1px solid var(--rim2);border-radius:10px;padding:4px 20px;margin-bottom:14px}
@@ -357,7 +364,6 @@ button.sv:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0
 </div>
 
 <script>
-
 (function(){
   const c=document.getElementById('s'),ctx=c.getContext('2d');
   let W,H,S=[];
@@ -389,9 +395,6 @@ const esc = s => (s||'').replace(/'/g, "\\'");
 
 function processUrl(url) {
   if (!url) return '';
-  if (url.includes('raw.githubusercontent.com') || (url.includes('jsdelivr.net') && url.endsWith('.html'))) {
-    return 'https://htmlpreview.github.io/?' + encodeURIComponent(url);
-  }
   return url;
 }
 
@@ -453,7 +456,7 @@ function renderGrid(gid, cid, data, filter) {
   }).join('');
 }
 
-window.openM = function(name, src) {
+window.openM = async function(name, src) {
   const item = (src === 'games' ? GD : MD).find(d => d.name === name);
   if (!item) return;
 
@@ -463,10 +466,22 @@ window.openM = function(name, src) {
       window.open(processed, '_blank', 'noopener');
       return;
     }
-    const label = src === 'movies' ? 'movie' : 'game';
     document.getElementById('gd-title').textContent = item.name || '';
     document.getElementById('gd-credit').innerHTML = item.credit ? `credit: <span>${item.credit}</span>` : '';
-    document.getElementById('gd-frame-wrap').innerHTML = `<iframe src="${processed}" allowfullscreen="true" allow="autoplay; fullscreen; gamepad"></iframe>`;
+    const wrap = document.getElementById('gd-frame-wrap');
+    wrap.innerHTML = '<iframe id="gd-iframe" allowfullscreen="true" allow="autoplay; fullscreen; gamepad" style="width:100%;height:100%;border:none;display:block"></iframe>';
+    const f = document.getElementById('gd-iframe');
+    try {
+      const r = await fetch(processed + (processed.includes('?') ? '&' : '?') + '_=' + Date.now());
+      const h = await r.text();
+      f.contentDocument.open();
+      f.contentDocument.write(h);
+      f.contentDocument.close();
+    } catch(e) {
+      f.contentDocument.open();
+      f.contentDocument.write('<body style="background:#000;color:#fff;padding:2rem;font-family:sans-serif"><p>Failed to load. Check the URL in your JSON.</p></body>');
+      f.contentDocument.close();
+    }
     document.getElementById('gd-drawer').classList.add('on');
     return;
   }
@@ -599,7 +614,6 @@ function applyS() {
 
 setInterval(() => { if (cfg().autoref) { loadG(); loadM(); } }, 5 * 60 * 1000);
 applyS(); loadG(); loadM(); loadC();
-  <script data-goatcounter="https://universalstash.goatcounter.com/count"async src="//gc.zgo.at/count.js"></script>
 </script>
 </body>
 </html>
