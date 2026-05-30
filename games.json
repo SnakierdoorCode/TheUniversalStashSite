@@ -16,5 +16,23 @@
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/poki/Drivemad/index.html",
     "credit": "Musashi for ripping",
     "description": "Drive Mad is an addictive, physics-based racing and puzzle game developed by Martin Magni"
+  },
+  {
+    "name": "Trees Hate You",
+    "featured": true,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/TreesHateyou.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/Treeshateyou/index.html",
+    "credit": "Musashi for ripping",
+    "description": "Trees Hate You is an absurd, comedy-focused rage game where you attempt to walk home after a peaceful picnic"
+  },
+  {
+    "name": "Dad N' Me",
+    "featured": true,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/DadNMe.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usDadnme.html",
+    "credit": "Musashi for ripping",
+    "description": "Trees Hate You is an absurd, comedy-focused rage game where you attempt to walk home after a peaceful picnic"
   }
 ]
