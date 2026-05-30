@@ -3,7 +3,7 @@
     "name": "Racing Limits",
     "featured": false,
     "type": "rip",
-    "image": "https://imgs.crazygames.com/racing-limits_1x1/20250711091800/racing-limits_1x1-cover?format=auto&quality=100&metadata=none&width=1200",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/racinglimit-512x512.png",
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usRacingLimits.html",
     "credit": "Musashi for ripping",
     "description": "An infinite arcade racing game where you weave through heavy highway traffic. Test your reflexes across multiple game modes including career, infinite, and time-trial variations."
