@@ -12,7 +12,7 @@
     "name": "Drive mad",
     "featured": true,
     "type": "rip",
-    "image": "https://cdn2.steamgriddb.com/grid/720a3d2fe9867a586078a3f40847bd57.png",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/Drive-Mad.jpg",
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/poki/Drivemad/index.html",
     "credit": "Musashi for ripping",
     "description": "Drive Mad is an addictive, physics-based racing and puzzle game developed by Martin Magni"
@@ -34,5 +34,32 @@
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usDadnme.html",
     "credit": "Musashi for ripping",
     "description": "Trees Hate You is an absurd, comedy-focused rage game where you attempt to walk home after a peaceful picnic"
-  }
+  },
+  {
+    "name": "Service Desk Simulator",
+    "featured": true,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/ServiceDeskSimulator.jpg",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/ServiceDeskSim/index.html",
+    "credit": "Musashi for ripping",
+    "description": "A Service Desk Simulator is an interactive training and practice platform designed to mirror real-world IT support environments"
+  },
+  {
+    "name": "Car game",
+    "featured": true,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/CarGame.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/CarGame/index.html",
+    "credit": "Musashi for ripping",
+    "description": "A game where you move with you mouse and do everything with your mouse."
+  },
+  {
+    "name": "Planet No more",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/PlanetNoMore.jpg",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/Planetnomore/index.html",
+    "credit": "Musashi for ripping",
+    "description": "A game where you move with you mouse and do everything with your mouse."
+  } 
 ]
