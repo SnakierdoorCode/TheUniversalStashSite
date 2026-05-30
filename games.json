@@ -61,5 +61,14 @@
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/Planetnomore/index.html",
     "credit": "Musashi for ripping",
     "description": "A game where you move with you mouse and do everything with your mouse."
-  } 
+  },
+  {
+    "name": "Longest Sword",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/LongestSword.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/Sword/index.html",
+    "credit": "Musashi for ripping",
+    "description": "Deepest Sword is a free, physics-based indie game developed by Cosmic Adventure Squad"
+  }  
 ]
