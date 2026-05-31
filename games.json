@@ -29,7 +29,7 @@
   {
     "name": "Dad N' Me",
     "featured": false,
-    "type": "rip",
+    "type": "rip",d
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/DadNMe.png",
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usDadnme.html",
     "credit": "Musashi for ripping",
@@ -79,5 +79,14 @@
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usScritchyScratchy.html",
     "credit": "French fry for ripping",
     "description": "Scritchy Scratchy is a super-satisfying scratch card incremental game where luck is your weapon, and glittering riches are just a scratch away"
-  }   
+  }
+  {
+    "name": "Touhou Exchange",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/TouHouExchangers.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usTouhouExchangers.html",
+    "credit": "French fry for ripping",
+    "description": "Produced for 9-Jam and Cirno Day, this is a Touhou remake of Money Puzzle/Idol Exchangers, a 1997 arcade game by Face. Updated to v4 (Teamplay)"
+  }
 ]
