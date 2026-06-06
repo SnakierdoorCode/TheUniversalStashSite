@@ -97,5 +97,14 @@
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usDriveQuest.html",
     "credit": "Musashi for ripping",
     "description": "Put your steering and navigation skills to the test in a stylized arcade driving challenge."
+  },
+  {
+    "name": "Dig out of prison",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/dig-out-of-prison.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usDigOutofPrison.html",
+    "credit": "Musashi for ripping",
+    "description": "Tunnel yourself out of prison to FREEDOM"
   }
 ]
