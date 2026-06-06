@@ -1,6 +1,9 @@
+
 [
-  { 
-    name:"musashi",
-    description:"For making the site"
+  {
+    "name": "Musashi",
+    "role": "Lead Developer & Game Ripper",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/musashiiii.png",
+    "url": "https://snakierdoorcode.github.io/Portfolio/"
   }
 ]
