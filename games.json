@@ -15,7 +15,7 @@
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/Drive-Mad.jpg",
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/poki/Drivemad/index.html",
     "credit": "Musashi for ripping",
-    "description": "Drive Mad is an addictive, physics-based racing and puzzle game developed by Martin Magni"
+    "description": "Drive Mad is an addictive, physics-based racing and puzzle game developed by Martin Magni."
   },
   {
     "name": "Trees Hate You",
@@ -24,7 +24,7 @@
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/TreesHateYou.png",
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/Treeshateyou/index.html",
     "credit": "Musashi for ripping",
-    "description": "Trees Hate You is an absurd, comedy-focused rage game where you attempt to walk home after a peaceful picnic"
+    "description": "Trees Hate You is an absurd, comedy-focused rage game where you attempt to walk home after a peaceful picnic."
   },
   {
     "name": "Dad N' Me",
@@ -33,7 +33,7 @@
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/DadNMe.png",
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usDadnme.html",
     "credit": "Musashi for ripping",
-    "description": "Trees Hate You is an absurd, comedy-focused rage game where you attempt to walk home after a peaceful picnic"
+    "description": "The classic, fast-paced Newgrounds beat-'em-up game where you control a purple skull-faced bully unleashing chaos on the local playground."
   },
   {
     "name": "Service Desk Simulator",
@@ -42,7 +42,7 @@
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/ServiceDeskSimulator.jpg",
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/ServiceDeskSim/index.html",
     "credit": "Musashi for ripping",
-    "description": "A Service Desk Simulator is an interactive training and practice platform designed to mirror real-world IT support environments"
+    "description": "A Service Desk Simulator is an interactive training and practice platform designed to mirror real-world IT support environments."
   },
   {
     "name": "Car game",
@@ -51,7 +51,7 @@
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/Cargame.png",
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/CarGame/index.html",
     "credit": "Musashi for ripping",
-    "description": "A game where you move with you mouse and do everything with your mouse."
+    "description": "A physics-based minimalist driving game where you control the speed, steering, and movement entirely with your mouse."
   },
   {
     "name": "Planet No more",
@@ -60,7 +60,7 @@
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/PlanetNoMore.png",
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/Planetnomore/index.html",
     "credit": "Musashi for ripping",
-    "description": "A game where you move with you mouse and do everything with your mouse."
+    "description": "A fast-paced celestial survival game where planets are collapsing around you and every move counts."
   },
   {
     "name": "Deepest Sword",
@@ -69,7 +69,7 @@
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/DeepestSword.png",
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/Sword/index.html",
     "credit": "Musashi for ripping",
-    "description": "Deepest Sword is a free, physics-based indie game developed by Cosmic Adventure Squad"
+    "description": "Deepest Sword is a free, physics-based indie game developed by Cosmic Adventure Squad."
   },
   {
     "name": "Scritchy Scratchy",
@@ -78,7 +78,7 @@
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/scritchyscratchy.png",
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usScritchyScratchy.html",
     "credit": "French fry for ripping",
-    "description": "Scritchy Scratchy is a super-satisfying scratch card incremental game where luck is your weapon, and glittering riches are just a scratch away"
+    "description": "Scritchy Scratchy is a super-satisfying scratch card incremental game where luck is your weapon, and glittering riches are just a scratch away."
   },
   {
     "name": "Touhou Exchange",
@@ -87,6 +87,15 @@
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/TouHouExchangers.png",
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usTouhouExchangers.html",
     "credit": "French fry for ripping",
-    "description": "Produced for 9-Jam and Cirno Day, this is a Touhou remake of Money Puzzle/Idol Exchangers, a 1997 arcade game by Face. Updated to v4 (Teamplay)"
+    "description": "Produced for 9-Jam and Cirno Day, this is a Touhou remake of Money Puzzle/Idol Exchangers, a 1997 arcade game by Face. Updated to v4 (Teamplay)."
+  },
+  {
+    "name": "Drive Quest",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/Drive-Quest1.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usDriveQuest.html",
+    "credit": "Musashi for ripping",
+    "description": "Put your steering and navigation skills to the test in a stylized arcade driving challenge."
   }
 ]
