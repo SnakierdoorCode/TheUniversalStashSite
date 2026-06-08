@@ -40,8 +40,8 @@
     "featured": true,
     "type": "rip",
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/ServiceDeskSimulator.jpg",
-    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/ServiceDeskSim/index.html",
-    "credit": "Musashi for ripping",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/ServiceDeskSim/servicedsk.html",
+    "credit": "Musashi for ripping and FrenchFry for fixing",
     "description": "A Service Desk Simulator is an interactive training and practice platform designed to mirror real-world IT support environments."
   },
   {
@@ -128,7 +128,7 @@
   {
     "name": "Doom 3 Demo",
     "featured": false,
-    "type": "port",
+    "type": "rip",
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/doom3.png",
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/doom3.html",
     "credit": "FrenchFry for porting",
@@ -139,8 +139,8 @@
     "featured": true,
     "type": "port",
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/BlueShift.png",
-    "url": "https://raw.githack.com/SnakierdoorCode/GAMES/main/RIPS/BlueShift.html",
-    "credit": "FrenchFry for porting",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usBlueShift.html",
+    "credit": "TS for porting and FrenchFry for ripping",
     "description": "Half-Life: Blue Shift is the second official, standalone expansion pack to the original Half-Life"
   },
   {
