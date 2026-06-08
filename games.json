@@ -106,5 +106,59 @@
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usDigOutofPrison.html",
     "credit": "Musashi for ripping",
     "description": "Tunnel yourself out of prison to FREEDOM"
+  },
+  {
+    "name": "Pegote",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/pegote.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/Pegote/index.html",
+    "credit": "Musashi for ripping",
+    "description": "Pegote is inspired by Guerra (war), a simple card game many of us grew up playing with a Spanish deck."
+  },
+  {
+    "name": "Startup Company",
+    "featured": true,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/startupcompany.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/startupcompany.html",
+    "credit": "FrenchFry for porting",
+    "description": "The Startup Company is a business simulation sandbox game where you act as the CEO of a brand-new tech company."
+  },
+  {
+    "name": "Doom 3 Demo",
+    "featured": false,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/doom3.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/doom3.html",
+    "credit": "FrenchFry for porting",
+    "description": "DOOM 3 is a critically acclaimed, story-driven action and survival-horror first-person shooter"
+  },
+  {
+    "name": "Half Life Blue shift",
+    "featured": true,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/BlueShift.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/BlueShift.html",
+    "credit": "FrenchFry for porting",
+    "description": "Half-Life: Blue Shift is the second official, standalone expansion pack to the original Half-Life"
+  },
+  {
+    "name": "Bag Game",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/baggame.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/A28/index.html",
+    "credit": "Musashi for ripping",
+    "description": "A deck building game."
+  },
+  {
+    "name": "Handmade god",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/Handmadegod.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/HandmadeGod/index.html",
+    "credit": "Musashi for ripping",
+    "description": "In HANDMADE GOD, objects are not made from resources — they are made from rules..."
   }
 ]
