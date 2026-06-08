@@ -139,7 +139,7 @@
     "featured": true,
     "type": "port",
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/BlueShift.png",
-    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/BlueShift.html",
+    "url": "https://raw.githack.com/SnakierdoorCode/GAMES/main/RIPS/BlueShift.html",
     "credit": "FrenchFry for porting",
     "description": "Half-Life: Blue Shift is the second official, standalone expansion pack to the original Half-Life"
   },
