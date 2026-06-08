@@ -117,13 +117,13 @@
     "description": "Pegote is inspired by Guerra (war), a simple card game many of us grew up playing with a Spanish deck."
   },
   {
-    "name": "Startup Company",
+    "name": "Half Life Opposing Force",
     "featured": true,
     "type": "port",
-    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/startupcompany.png",
-    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/startupcompany.html",
-    "credit": "FrenchFry for porting",
-    "description": "The Startup Company is a business simulation sandbox game where you act as the CEO of a brand-new tech company."
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/HLOF.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/HLOpposingForce.html",
+    "credit": "TS for porting and FrenchFry for ripping",
+    "description": "half-Life: Opposing Force is the critically acclaimed 1999 expansion pack for the original Half-Life, developed by Gearbox Software"
   },
   {
     "name": "Doom 3 Demo",
