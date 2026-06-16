@@ -147,7 +147,7 @@
     "name": "Bag Game",
     "featured": false,
     "type": "rip",
-    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/baggame.png",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@master/Icons/baggame.png",
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/A28/index.html",
     "credit": "Musashi for ripping",
     "description": "A deck building game."
