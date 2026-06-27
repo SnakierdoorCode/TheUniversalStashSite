@@ -163,7 +163,7 @@
   },
   {
     "name": "Cobb Can Move",
-    "featured": true,
+    "featured": false,
     "type": "rip",
     "image": "https://cdn.jsdelivr.net/gh/TheChillVideoGameNerd/RIPS/Cobb%20Can%20Move/icons/icon-512.png",
     "url": "https://cdn.jsdelivr.net/gh/TheChillVideoGameNerd/RIPS/Cobb%20Can%20Move/index.html",
@@ -172,7 +172,7 @@
   },
   {
     "name": "RunMan: Race Around The World",
-    "featured": true,
+    "featured": false,
     "type": "rip",
     "image": "https://dread-head-parkour.io/wp-content/uploads/2025/12/transparent-Photoroom-2025-12-11T221409.585-1-150x150.webp",
     "url": "https://cdn.jsdelivr.net/gh/TheChillVideoGameNerd/RIPS/RunMan%20Race%20Across%20The%20World/index.html",
