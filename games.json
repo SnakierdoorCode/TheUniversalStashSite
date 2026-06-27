@@ -3,8 +3,8 @@
     "name": "Racing Limits",
     "featured": false,
     "type": "rip",
-    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/racinglimit.png",
-    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usRacingLimits.html",
+    "image": "https://snakierdoorcode.github.io/TheUniversalStashSite/Icons/racinglimit.png",
+    "url": "https://raw.githack.com/SnakierdoorCode/GAMES/main/RIPS/usRacingLimits.html",
     "credit": "Musashi for ripping",
     "description": "An infinite arcade racing game where you weave through heavy highway traffic. Test your reflexes across multiple game modes including career, infinite, and time-trial variations."
   },
@@ -12,8 +12,8 @@
     "name": "Drive mad",
     "featured": true,
     "type": "rip",
-    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/Drive-Mad.jpg",
-    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/poki/Drivemad/index.html",
+    "image": "https://snakierdoorcode.github.io/TheUniversalStashSite/Icons/Drive-Mad.jpg",
+    "url": "https://raw.githack.com/SnakierdoorCode/GAMES/main/RIPS/poki/Drivemad/index.html",
     "credit": "Musashi for ripping",
     "description": "Drive Mad is an addictive, physics-based racing and puzzle game developed by Martin Magni."
   },
@@ -21,8 +21,8 @@
     "name": "Trees Hate You",
     "featured": true,
     "type": "rip",
-    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/TreesHateYou.png",
-    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/Treeshateyou/index.html",
+    "image": "https://snakierdoorcode.github.io/TheUniversalStashSite/Icons/TreesHateYou.png",
+    "url": "https://raw.githack.com/SnakierdoorCode/GAMES/main/RIPS/Treeshateyou/index.html",
     "credit": "Musashi for ripping",
     "description": "Trees Hate You is an absurd, comedy-focused rage game where you attempt to walk home after a peaceful picnic."
   },
@@ -30,7 +30,7 @@
     "name": "Dad N' Me",
     "featured": false,
     "type": "rip",
-    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/DadNMe.png",
+    "image": "https://snakierdoorcode.github.io/TheUniversalStashSite/Icons/DadNMe.png",
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/usDadnme.html",
     "credit": "Musashi for ripping",
     "description": "The classic, fast-paced Newgrounds beat-'em-up game where you control a purple skull-faced bully unleashing chaos on the local playground."
@@ -120,8 +120,8 @@
     "name": "Half Life Opposing Force",
     "featured": true,
     "type": "port",
-    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/HLOF.png",
-    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/HLOpposingForce.html",
+    "image": "https://snakierdoorcode.github.io/TheUniversalStashSite/Icons/HLOF.png",
+    "url": "https://raw.githack.com/SnakierdoorCode/GAMES/main/RIPS/HLOpposingForce.html",
     "credit": "TS for porting and FrenchFry for ripping",
     "description": "half-Life: Opposing Force is the critically acclaimed 1999 expansion pack for the original Half-Life, developed by Gearbox Software"
   },
@@ -147,7 +147,7 @@
     "name": "Bag Game",
     "featured": false,
     "type": "rip",
-    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/baggame.png",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@master/Icons/baggame.png",
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/A28/index.html",
     "credit": "Musashi for ripping",
     "description": "A deck building game."
