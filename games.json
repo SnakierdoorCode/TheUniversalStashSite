@@ -169,5 +169,14 @@
     "url": "https://raw.githack.com/SnakierdoorCode/GAMES/main/RIPS/Differentstrokes/index.html",
     "credit": "Musashi for ripping",
     "description": "A collaborative online painting game where players can create, edit, and rate each other's art!"
+  },
+  {
+    "name": "Little Chef",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/lilchef.jpg",
+    "url": "https://raw.githack.com/SnakierdoorCode/GAMES/main/RIPS/LittleChef/index.html",
+    "credit": "Musashi for ripping",
+    "description": "In Little Chef: Cozy Cooking, each level is a cozy puzzle sandbox set in its own unique kitchen."
   }
 ]
