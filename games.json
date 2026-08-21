@@ -160,5 +160,14 @@
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/HandmadeGod/index.html",
     "credit": "Musashi for ripping",
     "description": "In HANDMADE GOD, objects are not made from resources — they are made from rules..."
+  },
+  {
+    "name": "Different Strokes",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/different%20strokes.webp",
+    "url": "https://raw.githack.com/SnakierdoorCode/GAMES/main/RIPS/Differentstrokes/index.html",
+    "credit": "Musashi for ripping",
+    "description": "A collaborative online painting game where players can create, edit, and rate each other's art!"
   }
 ]
