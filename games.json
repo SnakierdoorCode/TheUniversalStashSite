@@ -180,11 +180,20 @@
     "description": "In Little Chef: Cozy Cooking, each level is a cozy puzzle sandbox set in its own unique kitchen."
   },
   {
-    "name": "Horror Tales 1 ",
+    "name": "Horror Tales 1",
     "featured": false,
     "type": "rip",
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/HorrorTales1.png",
     "url": "https://raw.githack.com/SnakierdoorCode/GAMES/main/RIPS/usHorrorTales1.html",
+    "credit": "Musashi for ripping",
+    "description": "Horror Tale Kidnapper is a frightening first-person horror adventure game."
+  },
+  {
+    "name": "Horror Tales 2",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/HorrorTales2.png",
+    "url": "https://raw.githack.com/SnakierdoorCode/GAMES/main/RIPS/usHorrorTales2.html",
     "credit": "Musashi for ripping",
     "description": "Horror Tale Kidnapper is a frightening first-person horror adventure game."
   }
