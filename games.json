@@ -196,5 +196,14 @@
     "url": "https://raw.githack.com/SnakierdoorCode/GAMES/main/RIPS/usHorrorTales2.html",
     "credit": "Musashi for ripping",
     "description": "Horror Tale Kidnapper is a frightening first-person horror adventure game."
+  },
+    {
+    "name": "Car Crash Sandbox",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/DriveZone.png",
+    "url": "https://raw.githack.com/SnakierdoorCode/GAMES/main/RIPS/DriveZone/index.html",
+    "credit": "Musashi for ripping",
+    "description": "Launch vehicles down massive slopes and crash them into destructible obstacles. Experience high-speed collisions and realistic crash physics."
   }
 ]
