@@ -214,5 +214,14 @@
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/Ports/Shopping/index.html",
     "credit": "Musashi for Porting",
     "description": "You go to the local supermarket every day, but you notice that something changes. You should figure out the truth about this place"
+  },
+  {
+    "name": "Fiend's Isle",
+    "featured": true,
+    "type": "Port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/fiendsisle.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/Ports/FiendsIsleExport/index.html",
+    "credit": "Musashi for Porting",
+    "description": "Fiend's Isle is an action roguelike inspired by retro first person RPGs of the 90s. Explore procedurally generated levels, fight monsters, and uncover the secrets of the mysterious island."
   }
 ]
