@@ -223,5 +223,14 @@
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/Ports/FiendsIsleExport/index.html",
     "credit": "Musashi for Porting",
     "description": "Fiend's Isle is an action roguelike inspired by retro first person RPGs of the 90s. Explore procedurally generated levels, fight monsters, and uncover the secrets of the mysterious island."
+  },
+  {
+    "name": "The Morning Tea",
+    "featured": false,
+    "type": "Port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/TheMorningTea.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/Ports/MorningTea/index.html",
+    "credit": "Musashi for Porting",
+    "description": "Upon waking up in a wooden cabin, you are welcomed with a strong sense of cold."
   }
 ]
