@@ -232,5 +232,41 @@
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/Ports/MorningTea/index.html",
     "credit": "Musashi for Porting",
     "description": "Upon waking up in a wooden cabin, you are welcomed with a strong sense of cold."
+  },
+  {
+    "name": "Minecraft Pocket Edition",
+    "featured": false,
+    "type": "Port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/minecraftdirtblock.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/Ports/MinecraftPocketEdition/index.html",
+    "credit": "FrenchFry for Porting",
+    "description": "Imagine it, build it. Create worlds on the go with Minecraft – Pocket Edition"
+  },
+  {
+    "name": "Deltarune chapter 1",
+    "featured": false,
+    "type": "Port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/deltarunech1.jpg",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/Ports/Deltarune/ch1/index.html",
+    "credit": "FrenchFry for Porting",
+    "description": "DELTARUNE is a parallel story to UNDERTALE created by Toby Fox, featuring a chapter-based system, bullet-dodging combat inspired by games like Chrono Trigger and Touhou, and a massive soundtrack."
+  },
+  {
+    "name": "Deltarune chapter 2",
+    "featured": false,
+    "type": "Port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/deltarunech2.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/Ports/Deltarune/ch2/index.html",
+    "credit": "FrenchFry for Porting",
+    "description": "DELTARUNE is a parallel story to UNDERTALE created by Toby Fox, featuring a chapter-based system, bullet-dodging combat inspired by games like Chrono Trigger and Touhou, and a massive soundtrack."
+  },
+  {
+    "name": "A dance of fire and ice",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/ADOFAI.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/ADOFAI.html",
+    "credit": "FrenchFry for ripping",
+    "description": "A Dance of Fire and Ice is a strict rhythm game"
   }
 ]
