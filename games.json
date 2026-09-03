@@ -268,5 +268,14 @@
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/ADOFAI.html",
     "credit": "FrenchFry for ripping",
     "description": "A Dance of Fire and Ice is a strict rhythm game"
+  },
+  {
+    "name": "Office Hours",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/officehours.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/OfficeHours/index.html",
+    "credit": "Musashi for ripping",
+    "description": "Escape from a day at the office and try not to strain your eyes."
   }
 ]
