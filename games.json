@@ -277,5 +277,14 @@
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/OfficeHours/index.html",
     "credit": "Musashi for ripping",
     "description": "Escape from a day at the office and try not to strain your eyes."
+  },
+  {
+    "name": "Mad Stick",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/madstick.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/youtubeplayables/main/Stickman/index.html",
+    "credit": "Musashi for ripping",
+    "description": "Crush your enemies while driving a mad chariot and get to the finish line at any cost. Earn points and buy new vehicles. Fury road awaits you!"
   }
 ]
