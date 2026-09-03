@@ -287,4 +287,13 @@
     "credit": "Musashi for ripping",
     "description": "Crush your enemies while driving a mad chariot and get to the finish line at any cost. Earn points and buy new vehicles. Fury road awaits you!"
   }
+  {
+    "name": "Gun Strike Runner",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/gunstrikerunner.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/youtubeplayables/main/GunStrikeRunner/Index.html",
+    "credit": "Musashi for ripping",
+    "description": "action-packed mobile and browser game that blends fast-paced running and gunning with weapon evolution"
+  }
 ]
