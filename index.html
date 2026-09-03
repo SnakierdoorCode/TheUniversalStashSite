@@ -9,6 +9,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 
 <script data-goatcounter="https://1tusuniversalstash30.com/count"async src="//gc.zgo.at/count.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R7LY822LJ8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R7LY822LJ8');
+</script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -42,6 +51,7 @@ header{
 .logo-img{width:34px;height:34px;object-fit:contain;filter:brightness(1.05)}
 .logo-text{font-family:'Bebas Neue',sans-serif;font-size:1.45rem;letter-spacing:0.055em;color:var(--w);white-space:nowrap;line-height:1}
 
+
 .header-search{margin-left:16px;position:relative;flex-shrink:0}
 .header-search svg{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--muted);width:13px;height:13px;pointer-events:none}
 .header-search input{
@@ -74,7 +84,6 @@ section.on{display:block}
 }
 .slabel::after{content:'';flex:1;height:1px;background:var(--rim2)}
 
-/* ── featured — identical layout to normal cards ── */
 #feat-row{
   display:grid;
   grid-template-columns:repeat(auto-fill,minmax(var(--card-w),1fr));
@@ -94,7 +103,6 @@ section.on{display:block}
   font-size:0.5rem;letter-spacing:0.1em;color:#08090f;text-transform:uppercase;font-weight:700;
 }
 
-/* ── card grid ── */
 #games-grid,#movies-grid{
   display:grid;grid-template-columns:repeat(auto-fill,minmax(var(--card-w),1fr));gap:12px;
 }
@@ -108,7 +116,6 @@ section.on{display:block}
 }
 .card:hover{transform:translateY(-4px);border-color:rgba(255,255,255,0.14);box-shadow:0 14px 36px rgba(0,0,0,0.5)}
 
-/* ── FIXED SQUARE THUMBNAIL — all images same size, no crop, no bleed ── */
 .card-thumb-wrap{
   width:100%;
   padding-top:100%;
@@ -164,7 +171,6 @@ section.on{display:block}
 #mc{position:absolute;top:10px;right:12px;background:rgba(0,0,0,0.45);border:1px solid var(--rim);border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--muted2);font-size:0.8rem;transition:color 0.15s,background 0.15s}
 #mc:hover{color:var(--w);background:rgba(255,255,255,0.1)}
 
-/* ── game drawer ── */
 #gd-drawer{
   position:fixed;bottom:0;left:0;right:0;height:100vh;
   background:var(--bg1);border-top:1px solid var(--rim);
@@ -240,7 +246,7 @@ button.sv:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0
 
 <header>
   <a class="logo-wrap" href="#">
-    <img class="logo-img" src="UniversalStash-removebg-preview.png" alt="" onerror="this.style.display='none'"/>
+    <img class="logo-img" src="https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/UniversalStash.png" alt="" onerror="this.style.display='none'"/>
     <span class="logo-text">The Universal Stash</span>
   </a>
   <div class="header-search" id="hswrap">
@@ -459,6 +465,13 @@ function renderGrid(gid, cid, data, filter) {
 window.openM = async function(name, src) {
   const item = (src === 'games' ? GD : MD).find(d => d.name === name);
   if (!item) return;
+
+  if (src === 'games' && typeof gtag === 'function') {
+    gtag('event', 'play_game', {
+      game_name: item.name,
+      game_type: item.type || 'other'
+    });
+  }
 
   if (item.url) {
     const processed = processUrl(item.url);
