@@ -295,5 +295,14 @@
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/youtubeplayables/main/GunStrikeRunner/Index.html",
     "credit": "Musashi for ripping",
     "description": "action-packed mobile and browser game that blends fast-paced running and gunning with weapon evolution"
+  },
+  {
+    "name": "A Bite At Freddy's",
+    "featured": false,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/Abiteatfreddys.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/Ports/ABiteAtFreddys/index.html",
+    "credit": "Musashi for porting",
+    "description": "A Bite at Freddy's is a bite-sized Five Nights at Freddy's experience."
   }
 ]
