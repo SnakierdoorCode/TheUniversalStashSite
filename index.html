@@ -157,7 +157,12 @@ section.on{display:block}
 .bp{background:rgba(76,175,130,0.1);color:var(--port);border:1px solid rgba(76,175,130,0.18)}
 .bo{background:rgba(196,154,60,0.1);color:var(--other);border:1px solid rgba(196,154,60,0.18)}
 
-/* ── modal ── */
+.pt-badge{
+  font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.04em;
+  color:rgba(158,184,255,0.85);margin-top:5px;display:flex;align-items:center;gap:4px;
+}
+.pt-badge.pt-none{color:var(--muted)}
+
 #mw{position:fixed;inset:0;z-index:500;background:rgba(5,6,12,0.88);backdrop-filter:blur(12px);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity 0.2s}
 #mw.on{opacity:1;pointer-events:all}
 #modal{background:var(--bg1);border:1px solid rgba(255,255,255,0.08);border-radius:14px;width:92vw;max-width:420px;overflow:hidden;transform:translateY(12px) scale(0.97);transition:transform 0.24s cubic-bezier(.2,1,.4,1);box-shadow:0 32px 70px rgba(0,0,0,0.65);position:relative}
@@ -192,7 +197,6 @@ section.on{display:block}
 .gd-frame-wrap{flex:1;background:#000;position:relative}
 .gd-frame-wrap iframe{width:100%;height:100%;border:none;display:block}
 
-/* ── settings ── */
 .pane{max-width:520px}
 .pane h2{font-family:'Bebas Neue',sans-serif;font-size:1.2rem;letter-spacing:0.1em;color:var(--w);margin-bottom:20px}
 .gbox{background:var(--bg1);border:1px solid var(--rim2);border-radius:10px;padding:4px 20px;margin-bottom:14px}
@@ -247,8 +251,8 @@ button.sv:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0
 <div id="root">
 
 <header>
-  <a class="logo-wrap" href="#">
-    <img class="logo-img" src="https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/UniversalStash.png" alt="" onerror="this.style.display='none'"/>
+  <a class="logo-wrap" href="#" id="logo-link">
+    <img class="logo-img" id="logo-img" src="https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/UniversalStash.png" alt="" onerror="this.style.display='none'"/>
     <span class="logo-text">The Universal Stash</span>
   </a>
   <div class="header-search" id="hswrap">
@@ -330,6 +334,10 @@ button.sv:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0
         <div><div class="rl">Type badges</div><div class="rs">Show RIP / PORT labels on cards</div></div>
         <label class="tog"><input type="checkbox" id="togb" checked/><span class="tt"></span></label>
       </div>
+      <div class="row">
+        <div><div class="rl">Show Playtime</div><div class="rs">Display tracked playtime on game cards. Playtime is always recorded in the background even while this is off — this only controls whether it's visible.</div></div>
+        <label class="tog"><input type="checkbox" id="togp"/><span class="tt"></span></label>
+      </div>
     </div>
   </div>
 </section>
@@ -380,7 +388,10 @@ button.sv:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0
   window.addEventListener('resize',init);init();draw();
 })();
 
+
+
 let GD=[],MD=[],CD=[];
+let currentPlaySession = null; // {name, start}
 
 const cfg=()=>({
   gcdn:  localStorage.getItem('us_gcdn')  || 'https://raw.githubusercontent.com/SnakierdoorCode/TheUniversalStashSite/main/games.json',   
@@ -388,7 +399,49 @@ const cfg=()=>({
   cccdn: localStorage.getItem('us_cccdn') || 'https://raw.githubusercontent.com/SnakierdoorCode/TheUniversalStashSite/main/credits.json',                 
   badges:  localStorage.getItem('us_badges')  !== 'false',
   autoref: localStorage.getItem('us_autoref') !== 'false',
-  theme:   localStorage.getItem('us_theme')   || 'default'
+  theme:   localStorage.getItem('us_theme')   || 'default',
+  showplaytime: localStorage.getItem('us_showplaytime') === 'true'
+});
+
+function loadPlaytime(){
+  try { return JSON.parse(localStorage.getItem('us_playtime') || '{}'); } catch(e){ return {}; }
+}
+function savePlaytime(pt){
+  localStorage.setItem('us_playtime', JSON.stringify(pt));
+}
+function addPlaytime(name, seconds){
+  if (!name || seconds <= 0) return;
+  const pt = loadPlaytime();
+  pt[name] = (pt[name] || 0) + seconds;
+  savePlaytime(pt);
+}
+function formatPlaytime(sec){
+  if (!sec || sec < 30) return null;
+  const h = Math.floor(sec/3600), m = Math.floor((sec%3600)/60);
+  if (h > 0) return h + 'h ' + m + 'm';
+  if (m > 0) return m + 'm';
+  return '<1m';
+}
+function playtimeHTML(name){
+  if (!cfg().showplaytime) return '';
+  const pt = loadPlaytime();
+  const f = formatPlaytime(pt[name]);
+  return f
+    ? `<div class="pt-badge">⏱ ${f} played</div>`
+    : `<div class="pt-badge pt-none">⏱ not played yet</div>`;
+}
+function endPlaySessionIfAny(){
+  if (currentPlaySession){
+    const elapsed = Math.floor((Date.now() - currentPlaySession.start) / 1000);
+    addPlaytime(currentPlaySession.name, elapsed);
+    currentPlaySession = null;
+    return true;
+  }
+  return false;
+}
+window.addEventListener('beforeunload', endPlaySessionIfAny);
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) endPlaySessionIfAny();
 });
 
 const fetchJ = async u => {
@@ -436,6 +489,7 @@ function renderFeatured(data) {
       <div class="card-body">
         <div class="card-name">${item.name}</div>
         <div class="card-foot">${badge}</div>
+        ${playtimeHTML(item.name)}
       </div>
     </div>`;
   }).join('');
@@ -454,14 +508,21 @@ function renderGrid(gid, cid, data, filter) {
     const t = (item.type || 'other').toLowerCase();
     const delay = Math.min(i * .03, .45).toFixed(2);
     const badge = showB ? `<span class="${bc(t)}">${bl(t)}</span>` : '';
+    const pt = src === 'games' ? playtimeHTML(item.name) : '';
     return `<div class="card" style="animation-delay:${delay}s" onclick="openM('${esc(item.name)}','${src}')">
       ${makeThumb(item)}
       <div class="card-body">
         <div class="card-name">${item.name}</div>
         <div class="card-foot">${badge}</div>
+        ${pt}
       </div>
     </div>`;
   }).join('');
+}
+
+function refreshGameCards(){
+  renderFeatured(GD);
+  renderGrid('games-grid', 'gcount', GD, document.getElementById('gsearch').value);
 }
 
 window.openM = async function(name, src) {
@@ -480,6 +541,11 @@ window.openM = async function(name, src) {
     if (item.external) {
       window.open(processed, '_blank', 'noopener');
       return;
+    }
+    // end any previous session before starting a new one
+    endPlaySessionIfAny();
+    if (src === 'games') {
+      currentPlaySession = { name: item.name, start: Date.now() };
     }
     document.getElementById('gd-title').textContent = item.name || '';
     document.getElementById('gd-credit').innerHTML = item.credit ? `credit: <span>${item.credit}</span>` : '';
@@ -514,8 +580,10 @@ window.openM = async function(name, src) {
 };
 
 window.closeDrawer = function() {
+  const ended = endPlaySessionIfAny();
   document.getElementById('gd-drawer').classList.remove('on');
   document.getElementById('gd-frame-wrap').innerHTML = '';
+  if (ended) refreshGameCards();
 };
 
 window.toggleDrawerFullscreen = function() {
@@ -615,6 +683,10 @@ document.getElementById('togb').addEventListener('change', e => {
   renderGrid('games-grid', 'gcount', GD, document.getElementById('gsearch').value);
   renderGrid('movies-grid', 'mcount', MD, '');
 });
+document.getElementById('togp').addEventListener('change', e => {
+  localStorage.setItem('us_showplaytime', e.target.checked);
+  refreshGameCards();
+});
 
 function applyS() {
   const c = cfg();
@@ -623,6 +695,7 @@ function applyS() {
   document.getElementById('cccdn').value = c.cccdn;
   document.getElementById('togr').checked = c.autoref;
   document.getElementById('togb').checked = c.badges;
+  document.getElementById('togp').checked = c.showplaytime;
   document.getElementById('ustheme').value = c.theme;
   changeTheme(c.theme);
 }
