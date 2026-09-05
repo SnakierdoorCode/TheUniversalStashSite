@@ -1,5 +1,14 @@
 [
   {
+    "name": "2048",
+    "featured": false,
+    "type": "rip",
+    "image": "https://snakierdoorcode.github.io/TheUniversalStashSite/Icons/2048.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/2048.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "combine numbered tiles on a 4x4 grid to create a tile with the number 2048"
+  },
+  {
     "name": "Racing Limits",
     "featured": false,
     "type": "rip",
@@ -304,5 +313,77 @@
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/Ports/ABiteAtFreddys/index.html",
     "credit": "Musashi for porting",
     "description": "A Bite at Freddy's is a bite-sized Five Nights at Freddy's experience."
+  },
+  {
+    "name": "Fused 240",
+    "featured": false,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/Fusion240.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/Ports/Fused240/index.html",
+    "credit": "Musashi for porting",
+    "description": "A short computer game about driving around in your vehicle, and meeting new people. Where will you go?"
+  },
+  {
+    "name": "Riddle School 1",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/riddleschool1.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/riddleschool1.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "2006 point-and-click Flash adventure game"
+  },
+  {
+    "name": "Riddle School 2",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/riddleschool2.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/riddleschool2.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "2006 point-and-click Flash adventure game"
+  },
+  {
+    "name": "Riddle School 3",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/riddleschool3.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/riddleschool3.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "2006 point-and-click Flash adventure game"
+  },
+  {
+    "name": "Riddle School 4",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/riddleschool4.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/riddleschool4.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "2006 point-and-click Flash adventure game"
+  },
+  {
+    "name": "Riddle School 5",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/riddleschool5.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/riddleschool5.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "2006 point-and-click Flash adventure game"
+  },
+  {
+    "name": "Riddle Transfer 1",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/riddletransfer1.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/riddlestransfer1.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "2006 point-and-click Flash adventure game"
+  },
+  {
+    "name": "Riddle Transfer 2",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/riddletransfer2.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/riddletransfer2.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "2006 point-and-click Flash adventure game"
   }
 ]
