@@ -385,5 +385,32 @@
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/riddletransfer2.html",
     "credit": "Fusionzzz for ripping",
     "description": "2006 point-and-click Flash adventure game"
+  },
+  {
+    "name": "Water Locked",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/waterlocked.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/waterlocked.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "Make your way through over 50 levels of confounding, dizzying fun, solving increasingly complex vaults filled to the brim with bits and bobs."
+  },
+  {
+    "name": "Telephone Trouble",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/telephonetrouble.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/TelephoneTrouble.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "Play as a switchboard operator and connect as many calls as you can in your 4-minute shift on 'the board'!"
+  },
+  {
+    "name": "Rubblar",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/rubblar.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/rubblar.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "Time to grab everything you can! "
   }
 ]
