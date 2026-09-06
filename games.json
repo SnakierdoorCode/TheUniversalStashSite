@@ -691,5 +691,14 @@
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/Ports/SCPGAMEEXPORTED/index.html",
     "credit": "Musashi for porting",
     "description": "Inspired by the SCP Foundation's SCP-914, SCP: Refinarium is a simulation type game where you play as a researcher assigned to SCP-914."
+  },
+  {
+    "name": "Ages of Conflict",
+    "featured": true,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/agesofconflict.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/RIPS/agesofconflict.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "A war game!"
   }
 ]
