@@ -630,6 +630,15 @@
     "description": "Test your survival skills in the ever-changing world of VEX!"
   },
   {
+    "name": "Vex HyperDash",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/vexhyperdash.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/vexhyperdash.html",
+    "credit": "Fusionzzz for ripping and musashi for bypass",
+    "description": "Test your survival skills in the ever-changing world of VEX!"
+  },
+  {
     "name": "Vex X3m 1",
     "featured": false,
     "type": "rip",
