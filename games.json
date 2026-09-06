@@ -448,5 +448,14 @@
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/supercouponclub.html",
     "credit": "Fusionzzz for ripping",
     "description": "Join Victoria and her rag tag group of underground coupon counterfeiters collectively known as the Super Coupon Club as they take on the new Corporate Super Mart! "
+  },
+  {
+    "name": "Cookie Clicker",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/cookieclicker.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/cookieclicker.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "Cookie Clicker is an incremental idle game where you click a giant cookie to bake and generate an absurd, endless number of cookies"
   }
 ]
