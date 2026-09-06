@@ -466,5 +466,14 @@
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/driftboss.html",
     "credit": "Fusionzzz for ripping",
     "description": "Drift Boss is a fun and casual driving game that requires precise timing. The goal is to stay on the track for as long as you possibly can."
+  },
+  {
+    "name": "Elastic Man",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/elastic.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/elasticman.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "stretch, squish, and pull a 3D face"
   }
 ]
