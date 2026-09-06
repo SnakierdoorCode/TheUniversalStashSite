@@ -646,5 +646,14 @@
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/vexx3m2.html",
     "credit": "Fusionzzz for ripping and musashi for bypass",
     "description": "Test your survival skills in the ever-changing world of VEX!"
+  },
+  {
+    "name": "Smash Remix",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/SmashRemix.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/smashremix.html",
+    "credit": "Pokemon1337 for the suggestion",
+    "description": "Test your survival skills in the ever-changing world of VEX!"
   }
 ]
