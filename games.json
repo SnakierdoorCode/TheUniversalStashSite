@@ -475,5 +475,50 @@
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/elasticman.html",
     "credit": "Fusionzzz for ripping",
     "description": "stretch, squish, and pull a 3D face"
+  },
+  {
+    "name": "Breaking The Bank",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/breakingthebank.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/breakingthebank.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "The main protagonist, Henry Stickmin, attempts to break into a bank, built in the middle of a desert."
+  },
+  {
+    "name": "Escaping The Prison",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/escapingtheprison.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/escapingtheprison.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "Escaping the Prison is the second game in the Henry Stickmin series"
+  },
+  {
+    "name": "Stealing The Diamond",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/stealingthediamond.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/stealingthediamond.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "Stealing the Diamond is the third game in the Henry Stickmin series"
+  },
+  {
+    "name": "Infiltrating the airship",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/infiltratingtheairship.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/infiltratingtheairship.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "Infiltrating the Airship is the fourth game in the Henry Stickmin series."
+  },
+  {
+    "name": "Infiltrating the airship",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/fleeingthecomplex.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/fleeingthecomplex.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "Fleeing the complex is the fifth game in the Henry Stickmin series."
   }
 ]
