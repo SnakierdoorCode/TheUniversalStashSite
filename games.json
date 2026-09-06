@@ -412,5 +412,41 @@
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/rubblar.html",
     "credit": "Fusionzzz for ripping",
     "description": "Time to grab everything you can! "
+  },
+  {
+    "name": "Organ Donor Delivery",
+    "featured": false,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/organdonordelivery.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/Ports/organdonor/index.html",
+    "credit": "Musashi for porting",
+    "description": "Welcome to Organ Donor Delivery ... Pack up and sell organs in this chaotic first person factory simulator"
+  },
+  {
+    "name": "The Registry",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/theregistry.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/theregistry.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "Welcome to the registry,Your job is simple: inspect citizens' documents, find inconsistencies, and decide who gets approved."
+  },
+  {
+    "name": "The Grand Book Archive",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/thegrandbookarchive.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/TheGrandBookArchive.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "You are invited to help restoring The Grand Book Archive, a timeless haven preserving the books of human history."
+  },
+  {
+    "name": "Super Coupon Club",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/supercouponclub.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/supercouponclub.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "Join Victoria and her rag tag group of underground coupon counterfeiters collectively known as the Super Coupon Club as they take on the new Corporate Super Mart! "
   }
 ]
