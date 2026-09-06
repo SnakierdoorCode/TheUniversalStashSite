@@ -673,5 +673,14 @@
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/fzerox.html",
     "credit": "Alan Smithee",
     "description": "high-speed, futuristic anti-gravity racing video game"
+  },
+  {
+    "name": "Scp refinarium",
+    "featured": true,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/scprefinarium.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/Ports/SCPGAMEEXPORTED/index.html",
+    "credit": "Musashi for porting",
+    "description": "Inspired by the SCP Foundation's SCP-914, SCP: Refinarium is a simulation type game where you play as a researcher assigned to SCP-914."
   }
 ]
