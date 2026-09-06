@@ -654,6 +654,24 @@
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/SmashRemix.png",
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/smashremix.html",
     "credit": " Alan Smithee",
-    "description": "Test your survival skills in the ever-changing world of VEX!"
+    "description": "Smash Remix is a free, fan-made mod which expands Smash 64 with new characters, stages, music and features, all while staying faithful to the original game."
+  },
+  {
+    "name": "FamiDash",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/famidash.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/famidash.html",
+    "credit": "Alan Smithee",
+    "description": "Famidash is a rhythm-based, action platformer that will test every limit of your patience."
+  },
+  {
+    "name": "F-Zero X",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/fzerox.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/fzerox.html",
+    "credit": "Alan Smithee",
+    "description": "high-speed, futuristic anti-gravity racing video game"
   }
 ]
