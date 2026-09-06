@@ -457,5 +457,14 @@
     "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/cookieclicker.html",
     "credit": "Fusionzzz for ripping",
     "description": "Cookie Clicker is an incremental idle game where you click a giant cookie to bake and generate an absurd, endless number of cookies"
+  },
+  {
+    "name": "Drift Boss",
+    "featured": false,
+    "type": "rip",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/drift-boss.png",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/RIPS/driftboss.html",
+    "credit": "Fusionzzz for ripping",
+    "description": "Drift Boss is a fun and casual driving game that requires precise timing. The goal is to stay on the track for as long as you possibly can."
   }
 ]
