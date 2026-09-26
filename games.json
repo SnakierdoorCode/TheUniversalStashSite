@@ -709,5 +709,14 @@
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/Ports/fallenties/fallenties.html",
     "credit": "Musashi for porting",
     "description": "A agent game where you kill suspects!"
+  },
+  {
+    "name": "Domino Sandbox",
+    "featured": false,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/dominosandbox.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/Ports/DOMINOGAME/index.html",
+    "credit": "Musashi for porting",
+    "description": "Minimalist style domino sandbox. Build your domino effect with unlimited pieces, customizable colors and reversibility."
   }
 ]
