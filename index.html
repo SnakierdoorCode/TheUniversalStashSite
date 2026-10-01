@@ -234,6 +234,27 @@ button.sv:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0
 .ei{font-size:2rem;margin-bottom:12px;opacity:0.3}
 .ct{font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.1em;color:var(--muted)}
 
+/* Blocked screen */
+#blocked{
+  position:fixed;inset:0;z-index:9999;display:none;
+  align-items:center;justify-content:center;flex-direction:column;
+  background:var(--bg);text-align:center;padding:24px;
+}
+#blocked.on{display:flex}
+.bl-box{
+  background:var(--bg1);border:1px solid var(--rim);border-radius:14px;
+  padding:36px 32px;max-width:420px;width:92vw;
+  box-shadow:0 32px 70px rgba(0,0,0,0.65);
+}
+.bl-icon{font-size:2.6rem;margin-bottom:14px;color:var(--rip)}
+.bl-title{font-family:'Bebas Neue',sans-serif;font-size:1.9rem;letter-spacing:0.05em;color:var(--w);margin-bottom:10px;line-height:1.1}
+.bl-msg{font-size:0.88rem;color:var(--muted2);line-height:1.65;margin-bottom:18px}
+.bl-tag{
+  display:inline-block;font-family:'DM Mono',monospace;font-size:0.6rem;
+  letter-spacing:0.12em;text-transform:uppercase;padding:3px 10px;border-radius:3px;
+  background:rgba(212,92,122,0.12);color:var(--rip);border:1px solid rgba(212,92,122,0.2);
+}
+
 @media(max-width:560px){
   header{padding:0 14px;gap:8px;flex-wrap:wrap;height:auto;padding-top:10px;padding-bottom:10px}
   .header-search{margin-left:0;order:3;width:100%}
@@ -248,6 +269,16 @@ button.sv:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0
 </head>
 <body>
 <canvas id="s"></canvas>
+
+<div id="blocked">
+  <div class="bl-box">
+    <div class="bl-icon">⛔</div>
+    <div class="bl-title">You have been blocked</div>
+    <div class="bl-msg">You have been blocked from this site by the site owner.</div>
+    <span class="bl-tag">Access denied</span>
+  </div>
+</div>
+
 <div id="root">
 
 <header>
@@ -700,8 +731,23 @@ function applyS() {
   changeTheme(c.theme);
 }
 
-setInterval(() => { if (cfg().autoref) { loadG(); loadM(); } }, 5 * 60 * 1000);
-applyS(); loadG(); loadM(); loadC();
+let BLOCKED = false;
+try {
+  const ref = document.referrer ? new URL(document.referrer).hostname : '';
+  if (ref === 'docs.google.com' || ref.endsWith('.docs.google.com')) BLOCKED = true;
+} catch(e) {}
+
+if (BLOCKED) {
+  document.getElementById('blocked').classList.add('on');
+  document.getElementById('root').remove();
+  document.getElementById('mw').remove();
+  document.getElementById('gd-drawer').remove();
+}
+
+if (!BLOCKED) {
+  setInterval(() => { if (cfg().autoref) { loadG(); loadM(); } }, 5 * 60 * 1000);
+  applyS(); loadG(); loadM(); loadC();
+}
 </script>
 </body>
 </html>
