@@ -41,6 +41,11 @@
 }
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--txt);font-family:'DM Sans',sans-serif;font-size:15px;min-height:100vh;overflow-x:hidden}
+::-webkit-scrollbar{width:5px;height:5px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--rim);border-radius:100px}
+::-webkit-scrollbar-thumb:hover{background:var(--muted)}
+*{scrollbar-width:thin;scrollbar-color:var(--rim) transparent}
 canvas#s{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:0.45}
 #root{position:relative;z-index:1;min-height:100vh;display:flex;flex-direction:column}
 
@@ -255,6 +260,25 @@ button.sv:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0
   background:rgba(212,92,122,0.12);color:var(--rip);border:1px solid rgba(212,92,122,0.2);
 }
 
+/* Changelog */
+.cl-entry{
+  display:flex;align-items:flex-start;gap:14px;
+  padding:14px 0;border-bottom:1px solid var(--rim2);
+}
+.cl-entry:last-child{border-bottom:none}
+.cl-thumb{
+  width:52px;height:52px;border-radius:8px;flex-shrink:0;
+  background:var(--bg2);border:1px solid var(--rim2);
+  overflow:hidden;display:flex;align-items:center;justify-content:center;
+  font-size:1.4rem;color:var(--muted2);
+}
+.cl-thumb img{width:100%;height:100%;object-fit:cover}
+.cl-body{flex:1;min-width:0}
+.cl-name{font-size:0.88rem;font-weight:500;color:var(--w);margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cl-desc{font-size:0.78rem;color:var(--muted2);line-height:1.5;margin-bottom:5px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.cl-meta{display:flex;align-items:center;gap:8px}
+.cl-new{font-family:'DM Mono',monospace;font-size:0.5rem;letter-spacing:0.1em;text-transform:uppercase;padding:2px 6px;border-radius:3px;background:rgba(76,175,130,0.1);color:var(--port);border:1px solid rgba(76,175,130,0.18)}
+
 @media(max-width:560px){
   header{padding:0 14px;gap:8px;flex-wrap:wrap;height:auto;padding-top:10px;padding-bottom:10px}
   .header-search{margin-left:0;order:3;width:100%}
@@ -295,9 +319,13 @@ button.sv:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="6" width="20" height="12" rx="3"/><path d="M8 12h4m-2-2v4M14 11h2"/></svg>
       <span>Games</span>
     </button>
-    <button class="nb" data-s="movies">
+    <!-- <button class="nb" data-s="movies">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m10 9 5 3-5 3V9z"/></svg>
       <span>Movies</span>
+    </button> -->
+    <button class="nb" data-s="changelog">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+      <span>Changelog</span>
     </button>
     <button class="nb" data-s="settings">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
@@ -322,6 +350,13 @@ button.sv:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0
 <section id="movies">
   <div class="slabel">All Movies <span class="ct" id="mcount" style="letter-spacing:0.1em;margin-left:4px"></span></div>
   <div id="movies-grid"></div>
+</section>
+
+<section id="changelog">
+  <div class="pane" style="max-width:640px">
+    <h2>Changelog</h2>
+    <div id="changelog-list"></div>
+  </div>
 </section>
 
 <section id="settings">
@@ -528,9 +563,9 @@ function renderFeatured(data) {
 
 function renderGrid(gid, cid, data, filter) {
   const g = document.getElementById(gid);
-  const q = (filter || '').toLowerCase();
-  const pool = (gid === 'games-grid' && !q) ? data.filter(d => !d.featured) : data;
-  const items = q ? data.filter(d => (d.name||'').toLowerCase().includes(q) || (d.description||'').toLowerCase().includes(q)) : pool;
+  const ql = (filter || '').toLowerCase().trim();
+  const pool = (gid === 'games-grid' && !ql) ? data.filter(d => !d.featured) : data;
+  const items = ql ? data.filter(d => (d.name||'').toLowerCase().includes(ql)) : pool;
   document.getElementById(cid).textContent = items.length ? items.length + ' titles' : '';
   if (!items.length) { g.innerHTML = '<div class="empty"><div class="ei">◌</div>nothing here yet</div>'; return; }
   const showB = cfg().badges;
@@ -595,6 +630,7 @@ window.openM = async function(name, src) {
       f.contentDocument.close();
     }
     document.getElementById('gd-drawer').classList.add('on');
+    document.body.style.overflow = 'hidden';
     return;
   }
 
@@ -613,6 +649,7 @@ window.openM = async function(name, src) {
 window.closeDrawer = function() {
   const ended = endPlaySessionIfAny();
   document.getElementById('gd-drawer').classList.remove('on');
+  document.body.style.overflow = '';
   document.getElementById('gd-frame-wrap').innerHTML = '';
   if (ended) refreshGameCards();
 };
@@ -682,13 +719,17 @@ window.saveCDN = function(type) {
   else loadC();
 };
 
+let _searchTimer = null;
 document.getElementById('gsearch').addEventListener('input', e => {
-  const q = e.target.value;
-  const featRow = document.getElementById('feat-row');
-  const featLabel = document.getElementById('feat-label');
-  if (q) { featRow.style.display = 'none'; featLabel.style.display = 'none'; }
-  else { featRow.style.display = ''; featLabel.style.display = ''; renderFeatured(GD); }
-  renderGrid('games-grid', 'gcount', GD, q);
+  clearTimeout(_searchTimer);
+  _searchTimer = setTimeout(() => {
+    const q = e.target.value;
+    const featRow = document.getElementById('feat-row');
+    const featLabel = document.getElementById('feat-label');
+    if (q) { featRow.style.display = 'none'; featLabel.style.display = 'none'; }
+    else { featRow.style.display = ''; featLabel.style.display = ''; renderFeatured(GD); }
+    renderGrid('games-grid', 'gcount', GD, q);
+  }, 300);
 });
 
 document.querySelectorAll('.nb').forEach(b => b.addEventListener('click', () => {
@@ -697,7 +738,9 @@ document.querySelectorAll('.nb').forEach(b => b.addEventListener('click', () => 
   b.classList.add('on');
   document.getElementById(b.dataset.s).classList.add('on');
   const isGames = b.dataset.s === 'games';
+  const isChangelog = b.dataset.s === 'changelog';
   document.getElementById('hswrap').style.display = isGames ? '' : 'none';
+  if (isChangelog) renderChangelog();
   if (isGames) {
     document.getElementById('gsearch').value = '';
     document.getElementById('feat-row').style.display = '';
@@ -718,6 +761,27 @@ document.getElementById('togp').addEventListener('change', e => {
   localStorage.setItem('us_showplaytime', e.target.checked);
   refreshGameCards();
 });
+
+function renderChangelog() {
+  const el = document.getElementById('changelog-list');
+  if (!GD.length) { el.innerHTML = '<div class="empty"><div class="ei">◌</div>no games loaded</div>'; return; }
+  const reversed = [...GD].reverse();
+  el.innerHTML = reversed.map((item, i) => {
+    const isNew = i === 0;
+    const thumb = item.image
+      ? `<img src="${item.image}" alt="${item.name}" onerror="this.style.display='none';this.parentElement.innerHTML='${item.icon||'🎮'}'"/>`
+      : `<span>${item.icon || '🎮'}</span>`;
+    const badge = isNew ? `<span class="cl-new">★ latest</span>` : '';
+    return `<div class="cl-entry" onclick="openM('${esc(item.name)}','games')" style="cursor:pointer">
+      <div class="cl-thumb">${thumb}</div>
+      <div class="cl-body">
+        <div class="cl-name">${item.name}</div>
+        ${item.description ? `<div class="cl-desc">${item.description}</div>` : ''}
+        <div class="cl-meta">${badge}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
 
 function applyS() {
   const c = cfg();
