@@ -709,5 +709,14 @@
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/Ports/DOMINOGAME/index.html",
     "credit": "Musashi for porting",
     "description": "Minimalist style domino sandbox. Build your domino effect with unlimited pieces, customizable colors and reversibility."
+  },
+  {
+    "name": "Fun With Ragdolls",
+    "featured": false,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/FWR.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/Ports/FunWithRagdolls/index.html",
+    "credit": "FrenchFry for porting",
+    "description": "You're a Ragdoll! What's the point of the game? Do what a Ragdoll is meant to do and flop, fall, or crash on to things! Don't be nervous!"
   }
 ]
