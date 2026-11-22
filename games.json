@@ -781,5 +781,14 @@
     "url": "https://cdn.jsdelivr.net/gh/turg1991/PORTS@main/Ray3Wasm/index.html",
     "credit": "Turg for porting",
     "description": "a Free 2D side-scrolling arcade beat-'em-up spin-off in the Five Nights at Freddy's series"
+  },
+  {
+    "name": "Slow Roads",
+    "featured": false,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/SlowRoads.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/Ports/SlowRoads/index.html",
+    "credit": "Musashi for porting",
+    "description": "Slow Roads is a casual driving game designed for long, cathartic journeys on quiet, scenic roads"
   }
 ]
