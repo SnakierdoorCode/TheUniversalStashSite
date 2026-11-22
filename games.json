@@ -727,5 +727,59 @@
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/Ports/GDSim/index.html",
     "credit": "Musashi for porting",
     "description": "Drive in a free session, race against the CPU(s), or race a friend in two-player split screen. Race around a circuit, or in a neverending high speed drag. Scale slopes with 4WD!"
+  },
+  {
+    "name": "Let me Inside",
+    "featured": false,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/LetmeInside.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/Ports/LetMeInside/index.html",
+    "credit": "Musashi for porting",
+    "description": "Let Me Inside, is a short single-player horror game using the PSX aesthetic."
+  },
+  {
+    "name": "AntonBlast",
+    "featured": false,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/LetmeInside.png",
+    "url": "https://cdn.jsdelivr.net/gh/turg1991/PORTS@main/AntonBlast/index.html",
+    "credit": "Turg for porting",
+    "description": "Fast-paced 2D action platformer developed by Summitsphere and published by Joystick Ventures"
+  },
+  {
+    "name": "Click The Button",
+    "featured": false,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/ClickTheButton.png",
+    "url": "https://cdn.jsdelivr.net/gh/turg1991/PORTS@main/Click%20The%20Button/index.html",
+    "credit": "Turg for porting",
+    "description": "Click the Button is an incremental game about clicking a button to receive chests that deliver incredible rewards. Improve your skills to become the strongest."
+  },
+  {
+    "name": "Freddy In Space",
+    "featured": false,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/FreddyInSpace.png",
+    "url": "https://cdn.jsdelivr.net/gh/turg1991/PORTS@main/Freddy%20In%20Space%202/index.html",
+    "credit": "Turg for porting",
+    "description": "Freddy in Space 2 is an independent side-scrolling shoot-'em-up adventure game"
+  },
+  {
+    "name": "Omori",
+    "featured": false,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/Omori.png",
+    "url": "https://cdn.jsdelivr.net/gh/turg1991/PORTS@main/OMORI/index.html",
+    "credit": "Turg for porting",
+    "description": "Explore a strange world full of colorful friends and foes. When the time comes, the path you’ve chosen will determine your fate... and perhaps the fate of others as well."
+  },
+  {
+    "name": "Security Breach: Fury's Rage",
+    "featured": false,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/SecurityBreachfurysrage.png",
+    "url": "https://cdn.jsdelivr.net/gh/turg1991/PORTS@main/Ray3Wasm/index.html",
+    "credit": "Turg for porting",
+    "description": "a Free 2D side-scrolling arcade beat-'em-up spin-off in the Five Nights at Freddy's series"
   }
 ]
