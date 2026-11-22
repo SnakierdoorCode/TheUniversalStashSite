@@ -718,5 +718,14 @@
     "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/Ports/FunWithRagdolls/index.html",
     "credit": "FrenchFry for porting",
     "description": "You're a Ragdoll! What's the point of the game? Do what a Ragdoll is meant to do and flop, fall, or crash on to things! Don't be nervous!"
+  },
+  {
+    "name": "GDSim",
+    "featured": false,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/GDSim.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/Ports/GDSim/index.html",
+    "credit": "Musashi for porting",
+    "description": "Drive in a free session, race against the CPU(s), or race a friend in two-player split screen. Race around a circuit, or in a neverending high speed drag. Scale slopes with 4WD!"
   }
 ]
