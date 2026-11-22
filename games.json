@@ -787,7 +787,7 @@
     "featured": false,
     "type": "port",
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/SlowRoads.png",
-    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/Ports/SlowRoads/index.html",
+    "url": "https://raw.githubusercontent.com/SnakierdoorCode/GAMES/main/Ports/SlowRoads/index.html",
     "credit": "Musashi for porting",
     "description": "Slow Roads is a casual driving game designed for long, cathartic journeys on quiet, scenic roads"
   }
