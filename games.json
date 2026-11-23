@@ -790,5 +790,14 @@
     "url": "https://snakierdoorcode.github.io/GAMES/Ports/SlowRoads/index.html",
     "credit": "Musashi for porting",
     "description": "Slow Roads is a casual driving game designed for long, cathartic journeys on quiet, scenic roads"
+  },
+  {
+    "name": "Laundry Simulator",
+    "featured": false,
+    "type": "port",
+    "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/LaundrySimulator.png",
+    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/Ports/LaundrySimulator/index.html",
+    "credit": "Musashi for porting",
+    "description": "A point-and-click time-management game where cats rule and laundry is big business. Laundrocorp's cattorneys are pressuring your fledgling laundromat to fold"
   }
 ]
