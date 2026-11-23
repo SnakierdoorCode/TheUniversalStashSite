@@ -796,7 +796,7 @@
     "featured": false,
     "type": "port",
     "image": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/TheUniversalStashSite@main/Icons/LaundrySimulator.png",
-    "url": "https://cdn.jsdelivr.net/gh/SnakierdoorCode/GAMES@main/Ports/LaundrySimulator/index.html",
+    "url": "https://raw.githack.com/SnakierdoorCode/GAMES/main/Ports/LaundrySimulator/index.html",
     "credit": "Musashi for porting",
     "description": "A point-and-click time-management game where cats rule and laundry is big business. Laundrocorp's cattorneys are pressuring your fledgling laundromat to fold"
   }
